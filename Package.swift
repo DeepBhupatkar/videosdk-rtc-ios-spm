@@ -13,13 +13,19 @@ let package = Package(
             name: "VideoSDKRTCSwift",
             targets: ["VideoSDKRTCSwift", "VideoSDKRTC", "WebRTC", "Mediasoup"]),
     ],
-   dependencies: [],
+    dependencies: [
+        .package(url: "https://github.com/socketio/socket.io-client-swift.git", from: "16.0.0")
+    ],
     targets: [
-        .target(name: "VideoSDKRTCSwift", dependencies: []),
+        .target(
+            name: "VideoSDKRTCSwift",
+            dependencies: [
+                .product(name: "SocketIO", package: "socket.io-client-swift")
+            ]
+        ),
         .binaryTarget(name: "WebRTC", path: "Sources/WebRTC.xcframework"),
         .binaryTarget(name: "Mediasoup", path: "Sources/Mediasoup.xcframework"),
         .binaryTarget(name: "VideoSDKRTC", path: "Sources/VideoSDKRTC.xcframework"),
         .testTarget(name: "VideoSDKRTCSwiftTests", dependencies: ["VideoSDKRTCSwift"]),
     ]
 )
-
