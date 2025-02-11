@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/SocketIO-Swift.h</key>
 		<data>
-		6cLUsdBJcPLAwRRqur0JgiQ3bKI=
+		Pqjt2f//u9eaMiMHw0vP/cwe40Y=
 		</data>
 		<key>Headers/SocketIO.h</key>
 		<data>
@@ -14,47 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xeRG/w//mRwvkAECyYGZLTjmhms=
+		RAlcY4KAql2e++R/Z0LvqfJ0jPY=
 		</data>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
 		ObwmsWQ0TmwAaZjZqKVfPbejb4k=
 		</data>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		C3OU9ptgHj1+JoP64xRbgeZIST8=
+		5TNCtN55a8u89NUsQExyOroAL8A=
 		</data>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		bbw0Gmt1BrglKh90BkH3VWdWsXI=
+		y90++N8yNfCjsiU07YgNJtBOfSM=
 		</data>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		C3OU9ptgHj1+JoP64xRbgeZIST8=
+		5TNCtN55a8u89NUsQExyOroAL8A=
 		</data>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		yLevDLDDzL3VqMQGgaSokpgXRnE=
-		</data>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		ObwmsWQ0TmwAaZjZqKVfPbejb4k=
-		</data>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		kX0BRzJA/yQOqwf62qHs+duQ8BE=
-		</data>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		Ir2FDB0IJrkMb6+na1io4+d2Ebc=
-		</data>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		kX0BRzJA/yQOqwf62qHs+duQ8BE=
-		</data>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		/NOUVfdbSOaoqq95rkwVKXOg108=
+		9v+Pz9r+8SanKybuECUulOQRw+8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sQFTP/qoGEWleApLVXqAiEI87GzsP3nVlDGeVq5hXd0=
+			XtL4leQnt4ggXCy7ytSllZbhsoqXjHgfj/dWadZHKUA=
 			</data>
 		</dict>
 		<key>Headers/SocketIO.h</key>
@@ -77,74 +57,39 @@
 			P8PvofSkjr5ZxF1rH46mBiGSuGFkWWuGzwkhMVYDwuA=
 			</data>
 		</dict>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			TvZhZLCowL/bXbdnzl9oSk/USeAKEmMw+Y2zFP1nKjA=
 			</data>
 		</dict>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/vFr1+xcWWq6FMKP6sPe5c6BoYVdJdP+1VT6jCVFAE=
+			rbHAW7Lh242g9iF9Mma49cQ9/njlXepqjwkJlBPIVNw=
 			</data>
 		</dict>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYtNibLMjVQdbPsPA5qcOiUKa+EgMe8cRgak5OkQk2E=
+			+RjA85IsKGWEKZN/Wrxr92Li6C+3/lU983CpR1eUWhI=
 			</data>
 		</dict>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/vFr1+xcWWq6FMKP6sPe5c6BoYVdJdP+1VT6jCVFAE=
+			rbHAW7Lh242g9iF9Mma49cQ9/njlXepqjwkJlBPIVNw=
 			</data>
 		</dict>
-		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<key>Modules/SocketIO.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7fPYOMtX/2vWKyJwQQ/qSxBq766TmRStd5PYS+/Mzxs=
-			</data>
-		</dict>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TvZhZLCowL/bXbdnzl9oSk/USeAKEmMw+Y2zFP1nKjA=
-			</data>
-		</dict>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4P86z4AWEVyc6jgn8UwpYL4CaqaaZGxbSHBY2FCFgoA=
-			</data>
-		</dict>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Q71KOZ5R7gK8Lxugin7NwJIGkHstFdi/S7/3OgVqVRw=
-			</data>
-		</dict>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4P86z4AWEVyc6jgn8UwpYL4CaqaaZGxbSHBY2FCFgoA=
-			</data>
-		</dict>
-		<key>Modules/SocketIO.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z7NfdUkYQfbcrMxa8gdBZv0exzclOnCvekQa12PlYd8=
+			VfWgsoFLHcu6pTm/QmvP4lryWSzC9hnaYSHGFvy9uJg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
