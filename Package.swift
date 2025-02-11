@@ -20,7 +20,10 @@ let package = Package(
         .target(
             name: "VideoSDKRTCSwift",
             dependencies: [
-                .product(name: "SocketIO", package: "socket.io-client-swift")
+                .product(name: "SocketIO", package: "socket.io-client-swift"),
+                "VideoSDKRTC",
+                "WebRTC",
+                "Mediasoup"
             ]
         ),
         .binaryTarget(name: "WebRTC", path: "Sources/WebRTC.xcframework"),
