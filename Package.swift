@@ -10,37 +10,21 @@ let package = Package(
     products: [
         .library(
             name: "VideoSDKRTCSwift",
-            targets: ["VideoSDKRTCSwift"]
+            targets: ["VideoSDKRTCSwift", "VideoSDKRTC", "WebRTC", "Mediasoup", "SocketIO"]
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/socketio/socket.io-client-swift.git", from: "16.0.0")
+        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.0")
     ],
     targets: [
-        // Main target depending on VideoSDKRTC, WebRTC, Mediasoup, and SocketIO
         .target(
             name: "VideoSDKRTCSwift",
-            dependencies: [
-                "VideoSDKRTC",
-                "WebRTC",
-                "Mediasoup",
-                .product(name: "SocketIO", package: "socket.io-client-swift")
-            ]
+            dependencies: ["Starscream"]
         ),
-        // Binary frameworks
-        .binaryTarget(
-            name: "VideoSDKRTC",
-            path: "Sources/VideoSDKRTC.xcframework"
-        ),
-        .binaryTarget(
-            name: "WebRTC",
-            path: "Sources/WebRTC.xcframework"
-        ),
-        .binaryTarget(
-            name: "Mediasoup",
-            path: "Sources/Mediasoup.xcframework"
-        ),
-        // Unit tests
+        .binaryTarget(name: "WebRTC", path: "Sources/WebRTC.xcframework"),
+        .binaryTarget(name: "Mediasoup", path: "Sources/Mediasoup.xcframework"),
+        .binaryTarget(name: "VideoSDKRTC", path: "Sources/VideoSDKRTC.xcframework"),
+        .binaryTarget(name: "SocketIO", path: "Sources/SocketIO.xcframework"),
         .testTarget(
             name: "VideoSDKRTCSwiftTests",
             dependencies: ["VideoSDKRTCSwift"]
